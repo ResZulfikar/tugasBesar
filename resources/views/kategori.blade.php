@@ -34,11 +34,11 @@
                             @endforeach
 							<!-- /post -->
 							
-							<div class="col-md-12">
+							<!-- <div class="col-md-12">
 								<div class="section-row">
 									<button class="primary-button center-block">Load More</button>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -74,7 +74,7 @@
 						<!-- /catagories -->
 						
 						<!-- tags -->
-						<div class="aside-widget">
+						<!-- <div class="aside-widget">
 							<div class="tags-widget">
 								<ul>
 									<li><a href="#">Chrome</a></li>
@@ -88,7 +88,7 @@
 									<li><a href="#">Website</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 						<!-- /tags -->
 					</div>
 				</div>

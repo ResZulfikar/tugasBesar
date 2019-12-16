@@ -16,6 +16,9 @@ Route::get('/', 'Beranda_controller@index');
 //search bar
 Route::get('search','Beranda_controller@search');
 
+//about us
+Route::get('about','Beranda_controller@about_us');
+
 //route group middleware auth
 Route::group(['middleware'=>'auth'], function(){
     //otomatis harus login untuk bisa masuk ke route ini

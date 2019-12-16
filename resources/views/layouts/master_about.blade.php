@@ -30,52 +30,7 @@
     </head>
 	<body>
 
-		<!-- Header -->
-		<header id="header">
-			<!-- Nav -->
-			<div id="nav">
-				<!-- Main Nav -->
-				<div id="nav-fixed">
-					<div class="container">
-						<!-- logo -->
-						<div class="nav-logo">
-							<a href="{{ url('/') }}" class="logo"><img src="{{ asset('webmag/img/degoolan.png') }}" alt=""></a>
-						</div>
-						<!-- /logo -->
-
-						<!-- nav -->
-						<ul class="nav-menu nav navbar-nav">
-							<?php 
-								$kategoris = \DB::table('kategori')->get();
-							?>
-							@foreach($kategoris as $kt)
-							<li><a href="{{ url('artikel/kategori/'.$kt->id) }}">{{ $kt->nama }}</a></li>
-							@endforeach
-						</ul>
-						<!-- /nav -->
-
-						<!-- search & aside toggle -->
-						<div class="nav-btns">
-							<button class="aside-btn"><i class="fa fa-bars"></i></button>
-							<button class="search-btn"><i class="fa fa-search"></i></button>
-							<form method="get" action="{{ url('search') }}">
-								<div class="search-form">
-									<input class="search-input" type="text" name="search" placeholder="Enter Your Search ...">
-									<button type="submit" class="search-close"><i class="fa fa-times"></i></button>
-								</div>
-							</form>
-						</div>
-						<!-- /search & aside toggle -->
-					</div>
-				</div>
-				<!-- /Main Nav -->
-
-				<!-- Aside Nav -->
-				
-				<!-- Aside Nav -->
-			</div>
-			<!-- /Nav -->
-		</header>
+	
 		<!-- /Header -->
 
 		<!-- section -->
@@ -89,9 +44,9 @@
 				<div class="row">
 					<div class="col-md-5">
 						<div class="footer-widget">
-							<!-- <div class="footer-logo">
-								<a href="{{ url('about') }}" class="width:20%"><img src="{{ url('webmag/img/degoolan.png') }}" alt=""></a>
-							</div> -->
+							<div class="footer-logo">
+								<a href="index.html" class="logo"><img src="./img/logo.png" alt=""></a>
+							</div>
 							<ul class="footer-nav">
 								<li><a href="#">Privacy Policy</a></li>
 								<li><a href="#">Advertisement</a></li>

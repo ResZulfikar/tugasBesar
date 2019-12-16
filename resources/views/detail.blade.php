@@ -32,11 +32,11 @@
 						</div>
 
 						<!-- ad -->
-						<div class="section-row text-center">
+						<!-- <div class="section-row text-center">
 							<a href="#" style="display: inline-block;margin: auto;">
 								<img class="img-responsive" src="./img/ad-2.jpg" alt="">
 							</a>
-						</div>
+						</div> -->
 						<!-- ad -->
 						
 						<!-- author -->
@@ -44,10 +44,11 @@
 							<div class="post-author">
 								<div class="media">
 									<div class="media-left">
-										<img class="media-object" src="./img/author.png" alt="">
+										<img class="media-object" src="{{url('webmag/img/author.png')}}" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-heading">
+											<!-- tampilkan siapa yg post -->
 											<h3>{{ $artikel->name}}</h3>
 										</div>
 										<ul class="author-social">

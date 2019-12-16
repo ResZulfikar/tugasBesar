@@ -53,5 +53,9 @@ class Beranda_controller extends Controller
 		->orderby('created_at','desc')->get();
 
         return view('kategori',compact('data'));
-    }
+	}
+	
+	public function about_us(){
+		return view('about_us');
+	}
 }
